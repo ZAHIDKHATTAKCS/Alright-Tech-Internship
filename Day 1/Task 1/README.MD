@@ -2,5 +2,7 @@
 
 #### <p align='center'>Task 1 Design a Flip Card</p><br>
 
-<img src="Design/Employee.png" width="100%"> <br><br>
-<img src="Design/Resident.png" width="100%">
+<p align='center'>
+<img src="Design/Employee.png" width="50%"> <br><br>
+<img src="Design/Resident.png" width="50%">
+</p>
