@@ -6,4 +6,5 @@
 
 #### <p align='center'>Task 1 Design a Flip Card</p><br>
 
-<img src="Design.png" width="100%">
+<img src="Design/Employee.png" width="100%"> <br><br>
+<img src="Design/Resident.png" width="100%">
