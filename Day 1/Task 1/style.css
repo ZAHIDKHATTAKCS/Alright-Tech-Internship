@@ -1,0 +1,89 @@
+body {
+    font-family: 'Product Sans';
+    box-sizing: border-box;
+}
+
+
+.card {
+    position: relative;
+    perspective: 1000px;
+}
+
+.head-div {
+    background-color: #008000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    padding: 0px;
+}
+
+#logo{
+    margin-top: -100px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    cursor: pointer;
+    transform: rotateY(180deg);
+    height: auto;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    padding: 20px;
+    height: auto;
+}
+.card-inner{
+    height: 100vh;
+}
+
+#user-img {
+    position: absolute;
+    top: 100px;
+}
+
+.content-div {
+    margin-top: 70px;
+    width: 100%;
+    height: 100vh;
+}
+
+.signature-div{
+    width: 150px;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1440px) {
+    .card {
+        width: 50%;
+        height: auto;
+    }
+    .card-inner{
+        height: auto;
+    }
+    .card:hover .card-inner {
+        cursor: pointer;
+        transform: rotateY(180deg);
+        height: auto;
+    }
+}
