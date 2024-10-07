@@ -2,7 +2,7 @@
 ----------------
 <br>
 
-#### <p align='center'>Day 1 Task Design </p><br>
+#### <p align='center'>Day 1 </p><br>
 
 #### <p align='center'>Task 1 Design a Flip Card</p><br>
 
