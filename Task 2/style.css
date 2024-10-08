@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'sopia pro';
+    }
+.section-1{
+    background-image: url('Assets/images/header-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-position: right bottom left top;
+    padding: 30px;
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+li a:hover , #logo:hover{
+    color: rgba(255, 215, 0, 1);
+    text-decoration: underline;
+}
+
+#logo{
+    width: 200px;
+}
+
+.header-content{
+    margin-top: 100px;
+}
+.content-banners{
+    margin-top: 10%;
+}
+.left-column{
+    background-image: url('assets/images/header-img-left.png');
+}
+.right-column{
+    background-image: url('assets/images/header-img-right.png');
+}
+
+.left-column,.right-column{
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+}
+
+.number{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.user-img{
+    width: 70px;
+}
+
+.section-2{
+    background-image: url('assets/images/Rectangle\ 4457.png');
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
