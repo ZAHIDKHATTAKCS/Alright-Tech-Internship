@@ -1,114 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flip Card Task 1</title>
-
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Card</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 
-<body class="d-block justify-content-center align-items-center d-md-flex flex-md-column justify-content-md-center">
-    <div class="card">
-        <div class="card-inner h-auto">
-            <div class="card-front">
-                <div class="head-div">
-                    <img src="./assets/images/Logo.png" alt="DHA Logo" width="100px" id="logo"/>
+<body>
 
-                    <img src="./assets/images/user-img.png" alt="user image" width="170px" id="user-img" />
-                </div>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
 
-                <div class="content-div d-flex flex-column align-items-center p-5">
-                    <h4>ABDUL WAHAB</h4>
-                    <p class="fs-6">Employee</p>
-                    <div class="d-flex justify-content-center align-items-start flex-column">
-                        <p class="fw-semibold">
-                            CNIC &nbsp;&nbsp; &nbsp;&nbsp; : &nbsp;&nbsp;
-                            <span class="fw-lighter"> &nbsp;61101-8712312-1</span>
-                        </p>
-                        <p class="fw-semibold">
-                            Phone &nbsp;&nbsp; : &nbsp; &nbsp;
-                            <span class="fw-lighter"> &nbsp;+92 312 1234567</span>
-                        </p>
-                        <p class="fw-semibold">
-                            Email &nbsp; &nbsp;&nbsp; : &nbsp;&nbsp;
-                            <span class="fw-lighter"> &nbsp;abdulwahab@gmail.com</span>
-                        </p>
-                        <p class="fw-semibold">
-                            Address : &nbsp;&nbsp;
-                            <span class="fw-lighter">
-                                &nbsp;House #123 street #2 phase 1</span>
-                        </p>
-                        <br /><br /><br />
-                        <img src="./assets/images/barcode.png" alt="bar code" width="300px" height="81px"/>
+                        <!-- Front Side -->
+                        <div class="flip-card-front">
+                            <div class="head-div">
+                                <img src="./assets/images/Logo.png" alt="DHA Logo" width="100px" id="logo" />
+
+                                <img src="./assets/images/user-img.png" alt="user image" width="170px" id="user-img" />
+                            </div>
+
+                            <div class="content-div d-flex flex-column justify-content-center align-items-center">
+                                <h4>ABDUL WAHAB</h4>
+                                <p class="fs-6">Employee</p>
+                                <div class="d-flex justify-content-center align-items-start flex-column">
+                                    <p class="fw-semibold">
+                                        CNIC &nbsp;&nbsp; &nbsp;&nbsp; : &nbsp;&nbsp;
+                                        <span class="fw-lighter"> &nbsp;61101-8712312-1</span>
+                                    </p>
+                                    <p class="fw-semibold">
+                                        Phone &nbsp;&nbsp; : &nbsp; &nbsp;
+                                        <span class="fw-lighter"> &nbsp;+92 312 1234567</span>
+                                    </p>
+                                    <p class="fw-semibold">
+                                        Email &nbsp; &nbsp;&nbsp; : &nbsp;&nbsp;
+                                        <span class="fw-lighter">
+                                            &nbsp;abdulwahab@gmail.com</span>
+                                    </p>
+                                    <p class="fw-semibold">
+                                        Address : &nbsp;&nbsp;
+                                        <span class="fw-lighter">
+                                            &nbsp;House #123 street #2 phase 1</span>
+                                    </p>
+                                    <br /><br /><br />
+                                    <img src="./assets/images/barcode.png" alt="bar code" width="300px" height="81px" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Back Side -->
+                        <div class="flip-card-back">
+                                <h5>TERMS & CONDITIONS</h5>
+                                <br />
+                                <ul>
+                                    <li>
+                                        Cards are issued to registered residents and employees of
+                                        DHA. All applicants must provide valid identification and
+                                        supporting documents for verification.
+                                    </li>
+                                    <br />
+
+                                    <li>
+                                        The card must be presented upon request at entry points to
+                                        DHA facilities, events, and services.
+                                    </li>
+                                    <br />
+                                    <li>
+                                        Cards are non-transferable and should only be used by the
+                                        individual to whom they are issued.
+                                    </li>
+                                    <br />
+                                    <li>
+                                        Residents must submit a renewal application and updated
+                                        documents as required. Employees must follow HR protocols
+                                        for card renewal.
+                                    </li>
+                                    <br />
+                                    <li>
+                                        Any fraudulent activities or misuse of the card, including
+                                        sharing or lending it to unauthorized individuals, will lead
+                                        to immediate cancellation of the card and potential legal
+                                        action.
+                                    </li>
+                                    <br />
+                                    <br />
+
+                                    <li>
+                                        These terms and conditions shall be governed by the laws
+                                        applicable in the jurisdiction where DHA operates.
+                                    </li>
+                                    <br />
+
+                                    <li>
+                                        By accepting and using the DHA resident or employee card,
+                                        individuals acknowledge that they have read, understood, and
+                                        agreed to these terms and conditions.
+                                    </li>
+                                    <br />
+
+                                    <div class="signature-div d-flex flex-column justify-content-center align-items-end">
+                                        <div style="height: 1px; width: 150px; background-color: lightgray;"></div>
+                                        <span>Signature</span>
+                                    </div>
+                                </ul>
+                        </div>
+
+
                     </div>
                 </div>
-            </div>
-
-
-
-            <div class="card-back d-flex flex-column justify-content-start align-items-start p-3">
-                <h5>TERMS & CONDITIONS</h5>
-                <br />
-                <ul>
-                    <li>
-                        Cards are issued to registered residents and employees of DHA. All
-                        applicants must provide valid identification and supporting
-                        documents for verification.
-                    </li>
-                    <br />
-
-                    <li>
-                        The card must be presented upon request at entry points to DHA
-                        facilities, events, and services.
-                    </li>
-                    <br />
-                    <li>
-                        Cards are non-transferable and should only be used by the
-                        individual to whom they are issued.
-                    </li>
-                    <br />
-                    <li>
-                        Residents must submit a renewal application and updated documents
-                        as required. Employees must follow HR protocols for card renewal.
-                    </li>
-                    <br />
-                    <li>
-                        Any fraudulent activities or misuse of the card, including sharing
-                        or lending it to unauthorized individuals, will lead to immediate
-                        cancellation of the card and potential legal action.
-                    </li>
-                    <br />
-                    <br />
-
-                    <li>
-                        These terms and conditions shall be governed by the laws
-                        applicable in the jurisdiction where DHA operates.
-                    </li>
-                    <br />
-
-                    <li>
-                        By accepting and using the DHA resident or employee card,
-                        individuals acknowledge that they have read, understood, and
-                        agreed to these terms and conditions.
-                    </li>
-                    <br />
-
-                    <div class="signature-div d-flex flex-column justify-content-center align-items-end">
-                        <div style="height: 1px; width: 150px; background-color: lightgray"></div>
-                        <span>Signature</span>
-                    </div>
-                </ul>
             </div>
         </div>
     </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
