@@ -1,0 +1,247 @@
+/*####### import cdn of font family main heading playpen sens ########*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+
+/*######## import cdn of font family main heading playpen sens ended here ###########*/
+
+/*####### import cdn of font family main heading Raleway ########*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*######## import cdn of font family main heading Raleway ended here ###########*/
+
+/*####### import cdn of font family main heading playfair display ########*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*######## import cdn of font family main heading playfair display  ended here ###########*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*########### varialble formation started here ###################*/
+
+:root {
+  /*############# Home page avriables started here #################*/
+
+  /*######### colors and background colors variables started here ##########*/
+
+  --primary-color1: rgba(229, 57, 53, 1);
+  --secondary-color1: rgba(248, 35, 72, 1);
+  --tertiary-color1: rgba(217, 217, 217, 1);
+  --quartenary-color1: rgba(255, 255, 255, 1);
+  --quinary-color1: rgba(110, 114, 122, 1);
+  --sextary-color1: rgba(84, 101, 225, 1);
+  --septenary-color1: rgba(23, 23, 24, 1);
+
+  --mainheading-color: var(--quartenary-color1);
+  --subheading-color: var(--primary-color1);
+  --card-heading-color: var(--secondary-color1);
+  --card-content-color: var(--quartenary-color1);
+  --paragraph-primary-color: var(--quartenary-color1);
+  --paragraph-secondary-color: var(--tertiary-color1);
+
+  --primary-background-color1: rgba(14, 13, 12, 1);
+  --secondary-background-color1: rgb(85, 67, 67);
+  --tertiary-background-color1: rgb(247, 248, 259, 1);
+
+  --background-color-gredient: linear-gradient(
+    90deg,
+    rgba(23, 23, 24, 0.1) 0%,
+    rgba(23, 23, 24, 0) 100%
+  );
+
+  /*######### colors and background colors variables ended here ##########*/
+
+  /*########## border image gradient started here ##############*/
+  --border-image-gradient-color: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(102, 102, 102, 0.4) 100%
+  );
+  /*################ border image gradient started here ##################*/
+
+  /*############### button variables started here #####################*/
+  --button-background-color: var(--primary-color1);
+  --button-text-color: var(--quartenary-color1);
+
+  /*############# button variables started here #############*/
+
+  /*######### font family  variables started here ##########*/
+
+  --font-family-primary: "Playpen Sans", cursive;
+  --font-family-secondary: "Raleway", sans-serif;
+  --font-family-tertiary: "Playfair Display", serif;
+
+  /*######### font family variables ended here ##########*/
+
+  /*################## Home page avriables ended here #######################*/
+
+  /* boder color variables started from here */
+  --border-color: var(--primary-color1);
+  /* boder color variables ended from here */
+
+  /*######### box shadow and blur variables started here ##########*/
+
+  --box-shadow-primary1: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  /*######### box shadow variables ended here ##########*/
+
+  /*########## login registration forms variables started here ##########*/
+
+  --forms-mainheading-fontsize: 28px;
+  --forms-input-fontsize: var(--font-small);
+
+  /*############ login registration forms variables ended here #########*/
+
+  /*########## chef detail page variables started here ##########*/
+  --chef-detail-card-background: var(--septenary-color1);
+  --chef-title-background: var(--primary-color1);
+  /*########## chef detail page variables ended here ##########*/
+
+  /*########## enquiry form 5 variables started here ##########*/
+
+  --enquiry-icon-background: var(--tertiary-background-color1);
+  --enquiry-icon-color: var(--quartenary-color1);
+
+  /*########## enquiry form variables ended here ##########*/
+
+  /*########## footer variables started here ##########*/
+
+  --footer-text-color: var(--quartenary-color1);
+
+  /*########## footer variables ended here ##########*/
+}
+
+/*########### varialble formation ended here ###################*/
+
+/* fill button styling started here */
+
+.button-fill {
+  background: var(--button-background-color);
+  color: var(--quartenary-color1);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: var(--font-family-secondary);
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.05s ease-in-out;
+}
+
+.button-fill:hover {
+  background: none;
+  color: var(--primary-color1);
+  border: 3px solid var(--primary-color1);
+}
+
+/* fill button styling ended here */
+
+/*############### our chef section started here #############*/
+
+.background-chef {
+  background: var(--primary-background-color1);
+}
+
+/* chef title styling started here */
+.chef-title {
+  color: var(--subheading-color);
+  font-family: var(--font-family-primary);
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/*#################### divider image styling ###############*/
+.divider img {
+  width: 150px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+/* chef title styling ended here */
+
+/* chef started styling started here */
+.chef-card {
+  background: var(--background-color-gredient);
+  /* background: linear-gradient(90deg, rgba(23, 23, 24, 0.1) 0%, rgba(23, 23, 24, 0) 100%); */
+
+  border: none;
+  color: var(--card-content-color);
+  backdrop-filter: blur(20px);
+  border: 2px solid var(--border-color);
+  padding: 5px;
+  border-radius: 10px;
+  font-family: var(--font-family-secondary);
+}
+/*########## card-image styling started here  ##############*/
+.chef-card img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border: 2px solid var(--border-color);
+}
+
+/*########## card-image styling ended here  ##############*/
+
+/*########### card content styling started here #########*/
+.chef-card h5 {
+  margin: 15px 0 5px;
+
+  font-size: 1.2rem;
+  color: var(--paragraph-primary-color);
+}
+
+.chef-card p {
+  font-size: 1.1rem;
+  color: var(--paragraph-primary-color);
+}
+.chef-card span {
+  color: var(--secondary-color1);
+}
+
+/*########### card content styling ended here #########*/
+
+/*############ card icon styling started here ###########*/
+.card-icon {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.card-icon span {
+  font-size: 12px;
+  color: var(--primary-color1);
+}
+.card-icon i {
+  font-size: 15px;
+  color: var(--primary-color1);
+}
+
+/*############ card icon styling ended here ###########*/
+
+/*########### read more read less styling started here ############*/
+.read-more-link {
+  cursor: pointer;
+  color: var(--secondary-color1);
+  text-decoration: none;
+  border: none;
+  background: none;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.read-more-link:hover {
+  color: var(--primary-color1); /* Darker shade on hover */
+}
+
+/* .read-more-btn, .read-less-btn {
+   
+} */
+/*########### read more read less styling ended here ############*/
+
+/*############### our chef section ended here #############*/
