@@ -1,0 +1,250 @@
+/* #####################   Begin : Zahid Khattak id- 0396    ##################### */
+
+body{
+    background-color: var(--primary-background-color1);
+}
+
+.enquiry-main-container{
+    font-family: var(--font-family-primary);
+}
+
+.carousel-inner-img{
+    width: 100%;
+    max-height:420px;
+    object-fit: fill;
+}
+
+.enquiry-p{
+    margin-bottom: 15%;
+}
+
+.enquiry-carousel{
+    padding: 0;
+    width: 100%;
+}
+
+.enquiry-form1-container , .enquiry-single-container , .enquiry-several-container,.enquiry-form3-container,.enquiry-form4-container ,.enquiry-form5-container,.enquiry-form6-container{
+    margin-top: 50px;
+    /* background-image: url('enquiry-form-images/form-bg.png'); */
+    background-image: url('enquiry-form-images/form-bg.png');
+    height: 500px;
+    background-size: 100% 100%;
+}
+
+.enquiry-overlay{
+    background-color: #000000B2;
+    height: 100%;
+}
+
+.Enquiry-Adults {
+    border-bottom: 1px solid var(--quinary-color1);
+    padding-bottom: 10px;
+}
+.Enquiry-children{
+    padding-bottom: 10px;
+
+}
+
+
+.enquiry-form-div{
+    width:700px;
+    border: 1.5px solid var(--border-color);
+    padding: 3%;
+    backdrop-filter: blur(6px);
+}
+
+.enquiry-form-section{
+    /* background-image: url('../images/enquiry-form-images/sec-bg.png'); */
+    background-image: url('./enquiry-form-images/sec-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 60px;
+    color: var(--quartenary-color1);
+}
+
+.enquiry-input{
+    background: none;
+    height: 50px;
+    border: 1px solid var(--border-color);
+    color: var(--quartenary-color1);
+}
+    
+
+.enquiry-input::placeholder{
+    color: var(--quinary-color1);
+}
+
+.enquiry-input:focus{
+    background: none;
+    border: 1.5px solid var(--border-color);
+    box-shadow: none;
+    color: var(--quartenary-color1);
+}
+
+.enquiry-btns-div{
+    margin-top: 150px;
+    width: 50%;
+}
+
+.enquiry-btn {
+    font-weight: 100;
+    font-size: 12px;
+    width: 50px;
+    height: 25px;
+    background-color: transparent;
+    border: 1px solid var(--primary-color1);
+    color: var(--quartenary-color1);
+    font-family: var(--font-family-tertiary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+
+.enquiry-nxt-btn{
+    font-weight: 100;
+    font-size: 12px;
+    width: 50px;
+    height: 25px;
+    border: 1px solid var(--primary-color1);
+    color: var(--quartenary-color1);
+    font-family: var(--font-family-tertiary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.enquiry-nxt-btn:hover{
+    border: 1px solid var(--primary-color1);
+    color: var(--quartenary-color1);
+    font-family: var(--font-family-tertiary);
+    
+}
+
+.enquiry-btn:hover{
+    border: 1px solid var(--primary-color1);
+    background-color: var(--primary-color1);
+    color:var(--quartenary-color1)
+}
+
+.enquiry-drpdwn-togle{
+    color: var(--quinary-color1);
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-background-color1);
+    border: 1px solid var(--primary-color1);
+}
+.enquiry-drpdwn-togle:hover{
+    background-color: var(--primary-background-color1);
+    border: 1px solid var(--primary-color1);
+}
+
+.dropdown .enquiry-divider{
+    color: var(--quartenary-color1);
+}
+
+.enquiry-inputs{
+    accent-color: var(--primary-color1);
+}
+.enquiry-labels:hover{
+    cursor: pointer;
+}
+
+.checkbox-div{
+    border: 1px solid var(--secondary-color1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox-inner-div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-right: 1px solid var(--quinary-color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.enquiry-meal-checkbox{
+    margin-bottom: 30px;
+}
+
+.Enquiry-details-input{
+    border:1px solid var(--secondary-color1);
+    height: 140px;
+}
+
+.enquiry-form-div::placeholder{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.checkbox-inner-div input[type="checkbox"]{
+    accent-color: var(--secondary-color1);
+}
+
+
+@media (min-width:320px) and (max-width:425px){
+    .enquiry-location-container{
+        height: 300px;
+    }
+    .enquiry-p{
+        font-size: 10px;
+    }
+    .inquiry-carousel-heading{
+        font-size: 13px;
+    }
+    .inquiry-carousel-caption{
+        padding: 0px;
+        margin:0px;
+    }
+    .enquiry-form-section{
+        padding: 0px;
+    }
+    .enquiry-btns-div{
+        margin-top: 0px;
+        width:100%;
+    }
+}
+
+@media (min-width:425px) and (max-width:768px) {
+    .enquiry-location-container{
+        height: 300px;
+    }
+    .enquiry-p{
+        font-size: 10px;
+    }
+    .inquiry-carousel-heading{
+        font-size: 13px;
+    }
+    .inquiry-carousel-caption{
+        padding: 0px;
+        margin:0px;
+    }
+    .enquiry-form-section{
+        padding: 0px;
+    }
+    .enquiry-btns-div{
+        margin-top: 0px;
+        width:100%;
+    }
+}
+
+
+
+
+
+/* #####################   End : Zahid Khattak id- 0396    ##################### */
