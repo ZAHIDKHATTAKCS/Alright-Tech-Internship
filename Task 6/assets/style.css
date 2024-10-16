@@ -1,0 +1,102 @@
+/*####### import cdn of font family main heading playpen sens ########*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+
+/*######## import cdn of font family main heading playpen sens ended here ###########*/
+
+/*####### import cdn of font family main heading Raleway ########*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*######## import cdn of font family main heading Raleway ended here ###########*/
+
+/*####### import cdn of font family main heading playfair display ########*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*######## import cdn of font family main heading playfair display  ended here ###########*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*########### varialble formation started here ###################*/
+
+:root {
+  /*############# View my page Variables started here #################*/
+
+  /*######### colors and background colors variables started here ##########*/
+
+  --primary-color1: rgba(229, 57, 53, 1);
+
+  --secondary-color1: rgba(248, 35, 72, 1);
+  --tertiary-color1: rgba(217, 217, 217, 1);
+  --quartenary-color1: rgba(255, 255, 255, 1);
+  --quinary-color1: rgba(110, 114, 122, 1);
+  --sextary-color1: rgba(84, 101, 225, 1);
+
+  --mainheading-color: var(--quartenary-color1);
+  --subheading-color: var(--primary-color1);
+  --card-heading-color: var(--secondary-color1);
+  --card-content-color: var(--quartenary-color1);
+  --paragraph-primary-color: var(--quartenary-color1);
+  --paragraph-secondary-color: var(--tertiary-color1);
+
+  /*######### colors and background colors variables ended here ##########*/
+
+  /*############### button variables started here #####################*/
+  --btn-bg-primary-color1: rgba(255, 255, 255, 1);
+  --button-background-color: var(--primary-color1);
+  --button-text-color: var(--quartenary-color1);
+  --button-text-color1: var(--quartenary-color1);
+
+  /*############# button variables started here #############*/
+
+  /*######### font family  variables started here ##########*/
+
+  --font-family-primary: "Playpen Sans", cursive;
+  --font-family-secondary: "Raleway", sans-serif;
+  --font-family-tertiary: "Playfair Display", serif;
+
+  /*######### font family variables ended here ##########*/
+
+  /*################## View my page Variables ended here #######################*/
+
+  /* boder color variables started from here */
+  --border-color: var(--primary-color1);
+  /* boder color variables ended from here */
+
+  /*########## view my page paragraph variables started here ##########*/
+  --viewpage-paragraph-fontsize: 25px;
+  --viewpage-paragraph-font-weight: 500;
+
+  /*############ login registration forms variables ended here #########*/
+}
+
+/*########### varialble formation ended here ###################*/
+
+/* fill button styling started here */
+
+.button-outline-red {
+  border: 1px solid var(--primary-color1);
+  font-family: var(--font-family-secondary);
+  font-weight: 500;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  background-color: var(--btn-bg-primary-color1);
+  cursor: pointer;
+}
+
+.button-outline-red:hover {
+  background-color: var(--button-background-color);
+  color: var(--button-text-color1);
+}
+
+/* fill button styling ended here */
+
+/*############### our chef section ended here #############*/

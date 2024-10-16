@@ -1,0 +1,102 @@
+/* .container{
+    font-family: var(--font-family-primary);
+} */
+
+
+
+
+
+.view-page-paragraph{
+    font-size: var(--viewpage-paragraph-fontsize);
+    font-weight: var(--viewpage-paragraph-font-weight);
+}
+
+.view-page-h{
+    font-weight: var(--viewpage-paragraph-font-weight);
+}
+
+.view-page-paragraph2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.view-page-flags{
+    width: 60px;
+}
+.view-my-page-languages{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+.view-page-cuisines{
+    font-weight: 500;
+}
+
+.view-page-orderlist {
+    list-style: none; /* Remove default list style */
+}
+
+.view-page-orderlist li {
+    counter-increment: list-counter; /* Increment counter for each li */
+    margin-bottom: 10px;
+    margin-left:  -30px;
+    font-weight: 500;
+}
+
+.view-page-orderlist li::before {
+    content: counter(list-counter) ": "; /* Display custom number format */
+}
+
+.view-page-food-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    color: rgba(110, 114, 122, 1);
+}
+
+.view-page-inner-card{
+    border: 1px solid var(--primary-color1);
+    border-radius: 10px;
+    /* text-align: justify; */
+    font-size: 15px;
+    font-style: normal;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.view-page-food-title{
+    font-weight: 500;
+}
+
+/* Media queries starts here */
+@media (min-width:320px) and (max-width:768px) {
+    .view-page-user-name{
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .view-page-paragraph{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .view-page-h{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        }
+    .view-page-food-card{
+        margin-top: 20px;
+    }
+}
+
+/* Media Queries Ends here */
+
+
+/* ################ End: Zahid Khattak id- 0396  */
