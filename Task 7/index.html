@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <title>Gallery</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/gallery.css" type="text/css" />
+
+    <!-- Bootstrap Links -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!-- ##############    Begin : Zahid Khattak id- 0396     ##############-->
+
+    <h6 class="fst-italic">Gallery</h6>
+    <div class="container-fluid p-4">
+
+        <!-- Upload any 9 images starts here -->
+        <div class="row">
+            <h6>Upload any 9 images</h6>
+            <div class="col-12 col-md-5 mt-3 d-block d-md-flex justify-content-start align-items-center gap-3">
+                <img src="assets/Gallery/img1.png" alt="Show img" width="45%"
+                    class="rounded-4 gallery-upload-img" id="main-img" />
+                <div
+                    class="gallery-upload-btns d-flex justify-content-start align-items-center mt-5 mt-md-0 d-md-flex flex-md-column justify-content-md-center align-items-md-center gap-3">
+                    <button type="file" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        class="button-outline-red-gallery">
+                        Choose
+                    </button>
+                    <button class="button-outline-red-gallery">Upload</button>
+                </div>
+            </div>
+
+            <!-- Modal code starts here -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg ">
+                    <div class="modal-content gallery-modal">
+                            <img src="assets/Gallery/1img.png" alt="Javascript img" class="img-fluid">
+                        <div class="modal-body ">
+                            <form>
+                                <div class="mb-3 d-md-flex flex-md-column justify-content-md-center align-items-md-center">
+                                    <div class="gallery-upload-pic-div row d-flex justify-content-center align-items-center ">
+                                        <!-- img div -->
+                                        <div class="gallery-upload-file-div d-flex flex-column justify-content-center align-items-center gap-3">
+                                            <img src="assets/Gallery/gallery-add.png" alt="gallery add icon" class="img-fluid gallery-add-pic" accept="image/JPG, image/PNG" id="picture">
+                                            <label for="gallery-file-input-field">Upload Your Photo</label>
+                                            <input type="file" accept="image/JPG, image/PNG" class="button-fill-gallery w-50" id="gallery-file-input-field">
+
+                                            <!-- javascript code for displaying image in the box starts here -->
+                                            <script>
+                                                let pic = document.getElementById("picture");
+                                                let InputFile = document.getElementById("gallery-file-input-field");
+
+                                                InputFile.onchange = function(){
+                                                    pic.src=URL.createObjectURL(InputFile.files[0]);
+                                                    pic.style.width="100%";
+                                                }
+                                            </script>
+                                            <!-- javascript code for displaying image in the box ends here -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <label for="Enter-Title" class="col-form-label fw-semibold text-center text-md-start">Enter Title*</label>
+                                <input type="text" class="gallery-input" id="Enter-Title" placeholder=" White Sauce Pasta">
+                                <div class="mb-3">
+                                    <label for="Enter-Cuisine" class="col-form-label fw-semibold">Enter Cuisine*</label>
+                                    <input class="gallery-input" id="Enter-Cuisine" placeholder=" Italian Food">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Enter-Cuisine" class="col-form-label fw-semibold">Description</label>
+                                    <div class="gallery-input gallery-input-long" contenteditable="true">
+                                        A creamy, rich white sauce pasta topped with fresh herbs and grated cheese, perfect for a comforting meal
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="container d-flex justify-content-end align-items-center mb-3 gap-3">
+                            <button type="button" class="gallery-cancel-btn button-outline-red-gallery" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="button-fill-gallery gallery-save-btn">Save and Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal code starts here -->
+
+
+
+        </div>
+        <!-- Upload any 9 images ends here -->
+
+        <p class="fst-italic mt-2">(Please Upload images in JPG OR PNG format)</p>
+
+
+        <!-- Gallery uploaded pics starts here -->
+
+        <div class="row row-cols-2 g-4 row-cols-md-4 g-md-5">
+            <div>
+                <img src="assets/Gallery/img1.png" alt="upload img 1" width="100%" class="img-fluid rounded-4 ">
+                <p class="text-center fst-italic text-danger">Replace</p>
+            </div>
+            <div>
+                <img src="assets/Gallery/img1.png" alt="upload img 1" class="img-fluid rounded-4 ">
+                <p class="text-center fst-italic">Replace</p>
+            </div>
+            <div>
+                <img src="assets/Gallery/img1.png" alt="upload img 1" class="img-fluid rounded-4 ">
+                <p class="text-center fst-italic">Replace</p>
+            </div>
+            <div>
+                <img src="assets/Gallery/img1.png" alt="upload img 1" class="img-fluid rounded-4 ">
+                <p class="text-center fst-italic">Replace</p>
+            </div>
+            <div>
+                <img src="assets/Gallery/img1.png" alt="upload img 1" class="img-fluid rounded-4 ">
+                <p class="text-center fst-italic">Replace</p>
+            </div>
+            <div>
+                <img src="assets/Gallery/img1.png" alt="upload img 1" class="img-fluid rounded-4 ">
+                <p class="text-center fst-italic">Replace</p>
+            </div>
+
+        </div>
+
+        <!-- Gallery uploaded pics starts here -->
+
+        <br /><br /><br /><br />
+    </div>
+
+    <!-- ##############    End : Zahid Khattak id- 0396     ##############-->
+</body>
+
+</html>

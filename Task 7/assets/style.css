@@ -1,0 +1,136 @@
+/*####### import cdn of font family main heading playpen sens ########*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap");
+
+/*######## import cdn of font family main heading playpen sens ended here ###########*/
+
+/*####### import cdn of font family main heading Raleway ########*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*######## import cdn of font family main heading Raleway ended here ###########*/
+
+/*####### import cdn of font family main heading playfair display ########*/
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/*######## import cdn of font family main heading playfair display  ended here ###########*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*########### Variables formation started here ###################*/
+
+:root {
+  /*############# Gallery Variables started here #################*/
+
+  /*######### colors and background colors variables started here ##########*/
+
+  --primary-color1:rgba(248, 35, 72,1);
+
+    --tertiary-color1: rgba(217,217,217,1);
+    --quartenary-color1: rgba(255, 255, 255,1);
+/* 
+    --mainheading-color: var(--quartenary-color1);
+    --subheading-color: var(--primary-color1);
+    --card-heading-color: var(--secondary-color1);
+    --card-content-color: var(--quartenary-color1);
+    --paragraph-primary-color: var(--quartenary-color1);
+    --paragraph-secondary-color: var(--tertiary-color1);
+     */
+
+  
+  /*######### colors and background colors variables ended here ##########*/
+
+
+  /* button background color code starts here */
+  --button-background-color:var(--primary-color1);
+  --button-text-color:var(--quartenary-color1);
+  /* button background color code end here */
+
+  /*######### font family  variables started here ##########*/
+
+  --font-family-primary: "Playpen Sans", cursive;
+  --font-family-secondary: "Raleway", sans-serif;
+  --font-family-tertiary: "Playfair Display", serif;
+
+  /*######### font family variables ended here ##########*/
+
+  /*################## View my page Variables ended here #######################*/
+
+  /* boder color variables started from here */
+  --border-color: var(--primary-color1);
+  /* boder color variables ended from here */
+
+
+  /* variables for input field color  start here*/
+  --input-placeholder-color:#808088;
+  /* variables for input field color ends here */
+
+  /*########## view my page paragraph variables started here ##########*/
+}
+
+/*########### gallery Variables ended here ###################*/
+
+/* outline button styling started here */
+
+.button-outline-red-gallery {
+  border: 1px solid var(--primary-color1);
+  font-family: var(--font-family-secondary);
+  font-weight: 500;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  background-color: var(--btn-bg-primary-color1);
+  cursor: pointer;
+}
+
+.button-outline-red-gallery:hover {
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+}
+
+.button-fill-gallery{
+  color: var(--button-text-color);
+  border: 1px solid var(--primary-color1);
+  font-family: var(--font-family-secondary);
+  font-weight: 500;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  background-color: var(--button-background-color);
+  cursor: pointer;
+}
+
+.gallery-input{
+  border: 1px solid var(--border-color);
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  height: 60px;
+}
+
+
+.gallery-input:focus{
+  /* border: 1px solid var(--border-color); */
+  border: none;
+  outline: 2px solid var(--border-color);
+}
+/* outline button styling ended here */
+
+
+
+
+
+
+
+
+
+/*############### our Gallery style ended here #############*/

@@ -1,0 +1,70 @@
+/* class for adding negative margin left */
+
+.gallery-upload-file-div{
+    border:2px dashed var(--border-color);
+    border-radius: 20px;
+    padding: 40px;
+    /* width: 200px; */
+}
+
+.gallery-add-pic{
+    width: 30%;
+}
+
+.gallery-input-long {
+    height: 150px;
+    color: var(--input-placeholder-color);
+}
+
+.gallery-input-long:placeholder{
+    margin-bottom: 200px;
+    vertical-align: top;
+}
+
+#gallery-file-input-field{
+    display: none;
+}
+
+
+.gallery-modal{
+    padding: 60px;
+}
+
+
+/* Media queries starts here */
+@media (min-width:320px) and (max-width:768px) {
+    .gallery-upload-img{
+        width: 100%;
+    }
+    .gallery-upload-file-div{
+        width: 100%;
+    }
+    .gallery-modal{
+        padding: 0%;
+    }
+    .gallery-save-btn{
+        width: 50%;
+        padding: 1%;
+    }
+    .gallery-cancel-btn{
+        width: 50%;
+        padding: 1%;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:1440px) {
+    .gallery-modal{
+        padding: 100px;
+        border: 2px solid red;
+    }
+    .gallery-upload-pic-div{
+        width: 40%;
+        
+    }
+}
+
+/* Media Queries Ends here */
+
+
+/* ################ End: Zahid Khattak id- 0396  */
